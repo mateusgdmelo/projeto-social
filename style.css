@@ -30,8 +30,29 @@ section#telefone {
 
 iframe#tela {
     position: relative;
-    top: 75px;
-    left: 21px;
-    height: 455px;
-    width: 258.5px;
+    top: 74.5px;
+    left: 20.5px;
+    height: 455.5px;
+    width: 260px;
+}
+
+ul {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#menu img {
+    border-radius: 100px;
+    width: 60px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px 0px black;
+    box-sizing: border-box;
+}
+
+#menu img:hover {
+    box-shadow: 5px 2px 5px rgb(0, 0, 0);
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    transition: transform .10s, border .2s;
 }
