@@ -6,6 +6,32 @@
 }
 
 body {
+    height: 100vh;
+    width: 100vw;
     background: black url(pacote-d013/imagens/fundo-madeira.jpg) center center no-repeat fixed;
     background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(pacote-d013/imagens/frame-iphone.png) center center no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 300px;
+}
+
+iframe#tela {
+    position: relative;
+    top: 75px;
+    left: 21px;
+    height: 455px;
+    width: 258.5px;
 }
