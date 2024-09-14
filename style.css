@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: black url(pacote-d013/imagens/fundo-madeira.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
