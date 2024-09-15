@@ -37,6 +37,9 @@ iframe#tela {
 }
 
 ul {
+    display: block;
+    float: right;
+    list-style-type: none;
     text-align: right;
     padding-top: 20px;
     padding-right: 20px;
